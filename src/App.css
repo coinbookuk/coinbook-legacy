@@ -1,0 +1,279 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.Buy-button {
+  background-color: #0B0B0B;
+  border-radius: 12px;
+  border: 1px solid #18ab29;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  padding: 17px 31px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+}
+.Buy-button :hover {
+  background-color: #0B0B0B;
+}
+.Buy-button :active {
+  position: relative;
+  top: 1px;
+}
+
+.App-header {
+  background-color: #0B0B0B;
+  min-height: 10vh;
+  min-width: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #FFFFFF;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes .brain {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media screen and (min-width: 857px) {
+  .App-body {
+    background-color: #0B0B0B;
+    min-width: 100vh;
+    min-height: 70vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: #FFFFFF;
+  }
+  .App-header {
+    background-color: #0B0B0B;
+    min-height: 8vh;
+    min-width: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: #FFFFFF;
+  }
+  .logo {
+    max-width: 40%;
+    height: auto;
+    padding: 0px;
+    position: center;
+    float: center;
+  }
+  h1 {
+    align-items: center;
+    float: center;
+    color: #FFFFFF;
+
+    float: left;
+    margin: 5px;
+    padding-top: 30px;
+    font-family: "Arial", sans-serif;
+    font-size: 60px;
+  }
+  .brain {
+    min-width: 70px;
+    height: auto;
+    position: relative;
+    top: 10px;
+  }
+}
+@media screen and (max-width: 857px) and (min-width: 768px) {
+  .App-header {
+    background-color: #0B0B0B;
+    min-height: 5vh;
+    min-width: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: #FFFFFF;
+  }
+  .App-body {
+    background-color: #0B0B0B;
+    min-width: 80vh;
+    min-height: 70vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: #FFFFFF;
+  }
+  .logo {
+    max-width: 40%;
+    height: auto;
+    padding: 0px;
+    position: center;
+    float: center;
+  }
+  h1 {
+    align-items: center;
+    float: center;
+    color: #FFFFFF;
+
+    float: left;
+    margin: 5px;
+    padding-top: 20px;
+    font-family: "Nunito", sans-serif;
+    font-size: 50px;
+  }
+  .brain {
+    min-width: 60px;
+    height: auto;
+    position: relative;
+    top: 10px;
+  }
+}
+.row {
+  float: right;
+}
+
+.App-footer {
+  background-color: #0B0B0B;
+  min-width: 50vh;
+  min-height: 10vw;
+  display: flex;
+  flex-direction: column;
+
+  font-size: calc(6px + 1vmin);
+  color: #FFFFFF;
+  font-family: "Nunito", sans-serif;
+}
+.footer-title {
+  color: #FFFFFF;
+  margin: 5px;
+  padding-top: 5px;
+  font-family: "Nunito", sans-serif;
+  font-size: calc(7px + 1vmin);
+}
+.donate {
+  float: left;
+  padding-top: 20px;
+}
+Popup {
+  border-radius: 12px;
+}
+body,
+header,
+footer {
+  border-width: 0px;
+  border: 0;
+}
+@media screen and (max-width: 768px) {
+  .App-header {
+    background-color: #0B0B0B;
+    max-height: 20vh;
+    min-width: 70vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: #FFFFFF;
+  }
+  .App-body {
+    background-color: #0B0B0B;
+    min-width: 70vw;
+    min-height: 70vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: #FFFFFF;
+  }
+  .logo {
+    max-width: 40%;
+    height: auto;
+    padding: 0px;
+    position: center;
+    float: center;
+  }
+  h1 {
+    align-items: center;
+    float: center;
+    color: #FFFFFF;
+    font-family: "Nunito", sans-serif;
+    float: left;
+    margin: 5px;
+    padding-top: 25px;
+
+    font-size: 35px;
+  }
+  .brain {
+    min-width: 60px;
+    height: auto;
+  }
+}
+.row {
+  float: right;
+}
+
+.App-footer {
+  background-color: #0B0B0B;
+  min-width: 70vw;
+  min-height: 10vw;
+  display: flex;
+  flex-direction: column;
+
+  font-size: calc(6px + 1vmin);
+  color: #FFFFFF;
+  font-family: "Nunito", sans-serif;
+  padding-bottom: 100px;
+}
+.footer-title {
+  color: #FFFFFF;
+  margin: 5px;
+  padding-top: 5px;
+  font-family: "Nunito", sans-serif;
+  font-size: calc(7px + 1vmin);
+}
+.donate {
+  float: left;
+  padding-top: 20px;
+}
+Popup {
+  border-radius: 12px;
+}
+body,
+header,
+footer {
+  border-width: 0px;
+  border: 0;
+}
