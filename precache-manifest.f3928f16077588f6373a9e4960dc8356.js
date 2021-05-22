@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8b9f7327d2d9e3ad978bcd69493dc5b8",
+    "revision": "0a7998a3c9dc69af5e251b0a93cb0b25",
     "url": "/coinbook/index.html"
   },
   {
-    "revision": "2bfd9132f5f60d471205",
-    "url": "/coinbook/static/css/main.949c100d.chunk.css"
+    "revision": "02b581beb729e2b98bfc",
+    "url": "/coinbook/static/css/main.36576ced.chunk.css"
   },
   {
     "revision": "332e5d10133c762162b9",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/coinbook/static/js/2.e277732b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2bfd9132f5f60d471205",
+    "revision": "02b581beb729e2b98bfc",
     "url": "/coinbook/static/js/main.6f2286ae.chunk.js"
   },
   {
