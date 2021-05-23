@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.b8587eaf.chunk.css",
-    "main.js": "/static/js/main.8e42cf52.chunk.js",
-    "main.js.map": "/static/js/main.8e42cf52.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.9cb14705.js",
-    "runtime-main.js.map": "/static/js/runtime-main.9cb14705.js.map",
-    "static/js/2.88829ad2.chunk.js": "/static/js/2.88829ad2.chunk.js",
-    "static/js/2.88829ad2.chunk.js.map": "/static/js/2.88829ad2.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.03a18bf2e902ce915e92581b78e0d0a3.js": "/precache-manifest.03a18bf2e902ce915e92581b78e0d0a3.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.b8587eaf.chunk.css.map": "/static/css/main.b8587eaf.chunk.css.map",
-    "static/js/2.88829ad2.chunk.js.LICENSE.txt": "/static/js/2.88829ad2.chunk.js.LICENSE.txt",
-    "static/media/logoheader.svg": "/static/media/logoheader.295c5314.svg"
+    "main.css": "/coinbook/static/css/main.b8587eaf.chunk.css",
+    "main.js": "/coinbook/static/js/main.2913e30b.chunk.js",
+    "main.js.map": "/coinbook/static/js/main.2913e30b.chunk.js.map",
+    "runtime-main.js": "/coinbook/static/js/runtime-main.db4d3bc2.js",
+    "runtime-main.js.map": "/coinbook/static/js/runtime-main.db4d3bc2.js.map",
+    "static/js/2.e277732b.chunk.js": "/coinbook/static/js/2.e277732b.chunk.js",
+    "static/js/2.e277732b.chunk.js.map": "/coinbook/static/js/2.e277732b.chunk.js.map",
+    "index.html": "/coinbook/index.html",
+    "precache-manifest.51545ccfc1901f93e1e88ed12b5c0f02.js": "/coinbook/precache-manifest.51545ccfc1901f93e1e88ed12b5c0f02.js",
+    "service-worker.js": "/coinbook/service-worker.js",
+    "static/css/main.b8587eaf.chunk.css.map": "/coinbook/static/css/main.b8587eaf.chunk.css.map",
+    "static/js/2.e277732b.chunk.js.LICENSE.txt": "/coinbook/static/js/2.e277732b.chunk.js.LICENSE.txt",
+    "static/media/logoheader.svg": "/coinbook/static/media/logoheader.295c5314.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.9cb14705.js",
-    "static/js/2.88829ad2.chunk.js",
+    "static/js/runtime-main.db4d3bc2.js",
+    "static/js/2.e277732b.chunk.js",
     "static/css/main.b8587eaf.chunk.css",
-    "static/js/main.8e42cf52.chunk.js"
+    "static/js/main.2913e30b.chunk.js"
   ]
 }
