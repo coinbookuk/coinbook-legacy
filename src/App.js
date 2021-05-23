@@ -445,7 +445,7 @@ class App extends React.Component {
               </p>
 
               <p className="footer-title">
-                Monero: rfsGFqq8ZHTEbUs3ibvbTVZN8LnvZNT2UY
+                Monero: 8BDpsP2BppQRvj24MPKeAyb2pwFWQmNkWUHMmwq9osADbH87YwL2R1JawMdKdcugS3V1tHFzFa3hFhv7jysxbCiHVg3wo8t
               </p>
             </div>
           </footer>
@@ -513,7 +513,7 @@ class App extends React.Component {
               </p>
 
               <p className="footer-title">
-                Monero: rfsGFqq8ZHTEbUs3ibvbTVZN8LnvZNT2UY
+                Monero: 8BDpsP2BppQRvj24MPKeAyb2pwFWQmNkWUHMmwq9osADbH87YwL2R1JawMdKdcugS3V1tHFzFa3hFhv7jysxbCiHVg3wo8t
               </p>
             </div>
           </footer>
