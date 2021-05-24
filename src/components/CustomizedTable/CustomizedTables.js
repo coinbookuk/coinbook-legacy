@@ -480,7 +480,7 @@ export default class CustomizedTables extends React.Component {
                 data-item="price_change_percentage_24h"
                 onClick={this.props.handleTableHeaderClick}
               >
-                Change
+                Change 24H
               </th>
             </tr>
             {this.result()}

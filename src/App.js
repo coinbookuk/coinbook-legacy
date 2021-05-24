@@ -443,10 +443,6 @@ class App extends React.Component {
               <p className="footer-title">
                 XRP: rfsGFqq8ZHTEbUs3ibvbTVZN8LnvZNT2UY
               </p>
-
-              <p className="footer-title">
-                Monero: 8BDpsP2BppQRvj24MPKeAyb2pwFWQmNkWUHMmwq9osADbH87YwL2R1JawMdKdcugS3V1tHFzFa3hFhv7jysxbCiHVg3wo8t
-              </p>
             </div>
           </footer>
         </div>
@@ -510,10 +506,6 @@ class App extends React.Component {
 
               <p className="footer-title">
                 XRP: rfsGFqq8ZHTEbUs3ibvbTVZN8LnvZNT2UY
-              </p>
-
-              <p className="footer-title">
-                Monero: 8BDpsP2BppQRvj24MPKeAyb2pwFWQmNkWUHMmwq9osADbH87YwL2R1JawMdKdcugS3V1tHFzFa3hFhv7jysxbCiHVg3wo8t
               </p>
             </div>
           </footer>
