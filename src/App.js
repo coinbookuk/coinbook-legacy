@@ -150,7 +150,7 @@ class App extends React.Component {
     }
     console.log(settingsAllorDefi);
     fetch(
-      `https://api.coingecko.com/api/v3/coins/markets?vs_currency=${checkLocalStorageC()}&order=market_cap_desc&per_page=350&page=5&sparkline=false`
+      `https://api.coingecko.com/api/v3/coins/markets?vs_currency=${checkLocalStorageC()}&order=market_cap_desc&per_page=350&page=1&sparkline=false`
     )
       .then((res) => res.json())
       .then(
