@@ -164,7 +164,7 @@
   }
   .btn {
     flex: 1 1 auto;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Nunito, sans-serif;
     margin-bottom: 10px;
     padding: 3px;
     text-align: center;
@@ -188,8 +188,8 @@
 
   .btn-1 {
     color: #FFFFFF;
-    font: 400 13.3333px Arial;
-    font-family: Arial;
+    font: 400 13.3333px Nunito;
+    font-family: Nunito;
     font-weight: 700;
     padding: 7px;
     margin: 3px;
@@ -264,14 +264,14 @@
     color: #FFFFFF;
     border-radius: 10px;
     border: 1px solid rgb(255, 255, 255);
-    box-shadow: rgb(11, 11, 11) 1px 1px 0px inset;
+    box-shadow: #22262F 1px 1px 0px inset;
     font-size: 14px;
-    box-shadow: rgb(11, 11, 11) 1.5px 1.5px 3px,
+    box-shadow: #22262F 1.5px 1.5px 3px,
       #5C68FF) -3px -3px 6px -0.5px;
     background: #22262F;
     border-width: 0px;
     border-style: solid;
-    border-color: rgb(226, 207, 213);
+    border-color: #22262F;
     border-image: initial;
     border-radius: 12px;
     overflow: hidden;
@@ -291,7 +291,7 @@
     border-radius: 0px;
   }
   .theCoinId:hover {
-    background-color: rgb(11, 11, 11);
+    background-color: #15181E;
     box-shadow: #22262F 1.5px 1.5px 3px,
       #22262F -3px -3px 6px -0.5px;
     cursor: pointer;
@@ -401,7 +401,7 @@
   }
   .btn {
     flex: 1 1 auto;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Nunito, sans-serif;
     margin-bottom: 10px;
     padding: 3px;
     text-align: center;
@@ -425,8 +425,8 @@
 
   .btn-1 {
     color: #FFFFFF;
-    font: 400 13.3333px Arial;
-    font-family: Arial;
+    font: 400 13.3333px Nunito;
+    font-family: Nunito;
     font-weight: 700;
     padding: 7px;
     margin: 3px;
@@ -499,14 +499,14 @@
     color: #FFFFFF;
     border-radius: 10px;
     border: 1px solid rgb(255, 255, 255);
-    box-shadow: rgb(11, 11, 11) 1px 1px 0px inset;
+    box-shadow: #22262F 1px 1px 0px inset;
     font-size: 14px;
-    box-shadow: rgb(11, 11, 11) 1.5px 1.5px 3px,
+    box-shadow: #22262F 1.5px 1.5px 3px,
       #5C68FF) -3px -3px 6px -0.5px;
     background: #22262F;
     border-width: 0px;
     border-style: solid;
-    border-color: rgb(226, 207, 213);
+    border-color: #22262F;
 
     border-image: initial;
     border-radius: 12px;
@@ -530,7 +530,7 @@
     border-radius: 0px;
   }
   .theCoinId:hover {
-    background-color: rgb(11, 11, 11);
+    background-color: #15181E;
     box-shadow: #22262F 1.5px 1.5px 3px,
       #22262F -3px -3px 6px -0.5px;
     cursor: pointer;
@@ -637,7 +637,7 @@
   }
   .btn {
     flex: 1 1 auto;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Nunito, sans-serif;
     margin-bottom: 10px;
     padding: 3px;
     text-align: center;
@@ -661,8 +661,8 @@
 
   .btn-1 {
     color: #FFFFFF;
-    font: 400 13.3333px Arial;
-    font-family: Arial;
+    font: 400 13.3333px Nunito;
+    font-family: Nunito;
     font-weight: 700;
     padding: 7px;
     margin: 3px;
@@ -774,14 +774,14 @@
     color: #FFFFFF;
     border-radius: 10px;
     border: 1px solid rgb(255, 255, 255);
-    box-shadow: rgb(11, 11, 11) 1px 1px 0px inset;
+    box-shadow: #22262F 1px 1px 0px inset;
     font-size: 14px;
-    box-shadow: rgb(11, 11, 11) 1.5px 1.5px 3px,
+    box-shadow: #22262F 1.5px 1.5px 3px,
       #5C68FF) -3px -3px 6px -0.5px;
     background: #22262F;
     border-width: 0px;
     border-style: solid;
-    border-color: rgb(226, 207, 213);
+    border-color: #22262F;
 
     border-image: initial;
     border-radius: 12px;
@@ -805,7 +805,7 @@
     border-radius: 0px;
   }
   .theCoinId:hover {
-    background-color: rgb(11, 11, 11);
+    background-color: #15181E;
     box-shadow: #22262F 1.5px 1.5px 3px,
       #22262F -3px -3px 6px -0.5px;
     cursor: pointer;
@@ -912,7 +912,7 @@
   }
   .btn {
     flex: 1 1 auto;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Nunito, sans-serif;
     margin-bottom: 10px;
     padding: 3px;
     text-align: center;
@@ -936,8 +936,8 @@
 
   .btn-1 {
     color: #FFFFFF;
-    font: 400 13.3333px Arial;
-    font-family: Arial;
+    font: 400 13.3333px Nunito;
+    font-family: Nunito;
     font-weight: 700;
     padding: 7px;
     margin: 3px;
