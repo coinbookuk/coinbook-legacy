@@ -378,6 +378,11 @@ class App extends React.Component {
         <div className="App">
           <header className="App-header">
             <div className="row">
+            <p className="footer-title"style={{ backgroundColor: '#' }}>
+                <a target="_blank" href="https://www.binance.com/en/register?ref=BC0PJGIM/"style={{ color: '#FFFFFF' }}>Sign up to Binance and get an extra free 10% on your first purchase</a>
+            </p>
+            </div>
+            <div className="row">
               <h1 classname="logo-text">
                 <img className="brain" src={logo} /> Coinbook.co.uk
               </h1>
@@ -445,7 +450,7 @@ class App extends React.Component {
               </p>
 
               <p className="footer-title">
-                Brave Verified Creator ✓
+                Brave Verified Creator ✅
               </p>
             </div>
           </footer>
@@ -460,6 +465,11 @@ class App extends React.Component {
                 <img className="brain" src={logo} /> <br />
                 Coinbook
               </h1>
+            </div>
+            <div className="row">
+            <p className="footer-title"style={{ backgroundColor: '#' }}>
+                <a target="_blank" href="https://www.binance.com/en/register?ref=BC0PJGIM/"style={{ color: '#FFFFFF' }}>Sign up to Binance and get an extra free 10% on your first purchase</a>
+            </p>
             </div>
           </header>
           <body className="App-body">
@@ -495,7 +505,7 @@ class App extends React.Component {
           </body>
           <footer className="App-footer">
             <div className="donate">
-              <p className="footer-title">Donations</p>
+              <p className="footer-title">Donations ❤️</p>
               <p className="footer-title">
                 Bitcoin: 14Z6pUMZikKGcuBDxxSMHSmrhcUwrAHcNs
               </p>
@@ -510,6 +520,10 @@ class App extends React.Component {
 
               <p className="footer-title">
                 XRP: rfsGFqq8ZHTEbUs3ibvbTVZN8LnvZNT2UY
+              </p>
+
+              <p className="footer-title">
+                Brave Verified Creator ✅
               </p>
             </div>
           </footer>
