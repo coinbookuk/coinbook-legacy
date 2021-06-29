@@ -443,6 +443,10 @@ class App extends React.Component {
               <p className="footer-title">
                 XRP: rfsGFqq8ZHTEbUs3ibvbTVZN8LnvZNT2UY
               </p>
+
+              <p className="footer-title">
+                Brave Verified Creator ✓
+              </p>
             </div>
           </footer>
         </div>
