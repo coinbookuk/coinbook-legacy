@@ -379,7 +379,7 @@ class App extends React.Component {
           <header className="App-header">
             <div className="row">
             <p className="footer-title"style={{ backgroundColor: '#' }}>
-                <a target="_blank" href="https://www.binance.com/en/register?ref=BC0PJGIM/"style={{ color: '#FFFFFF' }}>Sign up to Binance and get an extra free 10% on your first purchase</a>
+               <a target="_blank" href="https://www.binance.com/en/register?ref=BC0PJGIM/"style={{ color: '#FFFFFF' }}>Sign up to Binance and earn back 10% commission on all your trades</a>
             </p>
             </div>
             <div className="row">
@@ -450,7 +450,7 @@ class App extends React.Component {
               </p>
 
               <p className="footer-title">
-                Brave Verified Creator ✅
+                Brave Verified Creator
               </p>
             </div>
           </footer>
@@ -523,7 +523,7 @@ class App extends React.Component {
               </p>
 
               <p className="footer-title">
-                Brave Verified Creator ✅
+                Brave Verified Creator
               </p>
             </div>
           </footer>

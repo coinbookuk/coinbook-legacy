@@ -181,6 +181,14 @@ export default class CustomizedTables extends React.Component {
                 >
                   5 years
                 </a>
+                <div class="container">
+                <MoonPayPopup
+                  className="btn btn-1"
+                  coin={coin}
+                  symbol={coinSymbol}
+                  coinsOnMoonPay={this.props.coinsOnMoonPay}
+                />
+              </div>
               </div>
 
               <Chart
