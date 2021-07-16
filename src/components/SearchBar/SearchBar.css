@@ -24,10 +24,10 @@
   outline: 0;
   color: grey;
   border: none;
-  box-shadow: rgb(247, 242, 244) 1px 1px 0px inset;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
   font-size: 1.7vh;
-  box-shadow: rgb(247, 242, 244) 1px 1px 0px inset;
-  background: rgb(240, 231, 234);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+  background: #FFFFFF;
   border-width: 1px;
   border-style: solid;
   border-color: rgb(226, 207, 213);
@@ -39,9 +39,8 @@
 @media screen and (min-width: 768px) {
   .search:hover,
   .search:focus {
-    background: rgb(240, 235, 237);
-    box-shadow: rgb(22, 22, 22) 3px 3px 6px,
-      rgb(44, 44, 44) -6px -6px 12px -1px;
+    background: #F0F0F0;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
   }
 }
 @media screen and (max-width: 768px) {
@@ -71,10 +70,10 @@
     outline: 0;
     color: grey;
     border: none;
-    box-shadow: rgb(247, 242, 244) 1px 1px 0px inset;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
     font-size: 12px;
-    box-shadow: rgb(247, 242, 244) 1px 1px 0px inset;
-    background: rgb(240, 231, 234);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+    background: #FFFFFF;
     border-width: 1px;
     border-style: solid;
     border-color: rgb(226, 207, 213);

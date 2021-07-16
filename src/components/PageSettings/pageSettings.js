@@ -29,7 +29,7 @@ export default class PageSettings extends React.Component {
   }
   handlePageHandsup() {
     if (this.props.searchValue === "") {
-      if (this.props.pageNumber < 10) {
+      if (this.props.pageNumber < 25) {
         return (
           <a
             className="page-button"

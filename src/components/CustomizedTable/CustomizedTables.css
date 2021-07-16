@@ -23,17 +23,17 @@
     font-family: "Nunito", sans-serif;
     min-width: 85vw;
     max-width: 85vw;
-    color: #FFFFFF;
+    color: #323232;
     border-radius: 10px;
     border: 1px solid rgb(255, 255, 255);
-    box-shadow: #22262F 1px 1px 0px inset;
+    box-shadow: #FFFFFF 1px 1px 0px inset;
     font-size: 14px;
-    box-shadow: #22262F 1.5px 1.5px 3px,
+    box-shadow: #FFFFFF 1.5px 1.5px 3px,
       #5C68FF) -3px -3px 6px -0.5px;
-    background: #22262F;
+    background: #FFFFFF;
     border-width: 0px;
     border-style: solid;
-    border-color: #22262F;
+    border-color: #FFFFFF;
     border-image: initial;
     border-radius: 12px;
     overflow: hidden;
@@ -54,9 +54,9 @@
     border-radius: 0px;
   }
   .theCoinId:hover {
-    background-color: #15181E;
-    box-shadow: #22262F 1.5px 1.5px 3px,
-      #22262F -3px -3px 6px -0.5px;
+    background-color: #BFCEEA;
+    box-shadow: #FFFFFF 1.5px 1.5px 3px,
+      #FFFFFF -3px -3px 6px -0.5px;
     cursor: pointer;
   }
 
@@ -76,8 +76,8 @@
   }
   .table-header-button:hover {
     cursor: pointer;
-    box-shadow: #22262F 1.5px 1.5px 3px,
-      #22262F -3px -3px 6px -0.5px;
+    box-shadow: #FFFFFF 1.5px 1.5px 3px,
+      #FFFFFF -3px -3px 6px -0.5px;
   }
   th,
   td,
@@ -99,29 +99,29 @@
   }
 
   .up {
-    background-color: #22262F;
-    box-shadow: #22262F 1.5px 1.5px 3px,
-      #22262F -3px -3px 6px -0.5px;
+    background-color: #FFFFFF;
+    box-shadow: #FFFFFF 1.5px 1.5px 3px,
+      #FFFFFF -3px -3px 6px -0.5px;
     border-collapse: collapse;
     border-radius: 10px;
-    color: #00FF00;
+    color: #3ADC59;
     text-align: center;
-    border: 1px solid #22262F;
+    border: 1px solid #FFFFFF;
   }
   .down {
-    background-color: #22262F;
-    box-shadow: #22262F 1.5px 1.5px 3px,
-      #22262F -3px -3px 6px -0.5px;
+    background-color: #FFFFFF;
+    box-shadow: #FFFFFF 1.5px 1.5px 3px,
+      #FFFFFF -3px -3px 6px -0.5px;
     border-collapse: collapse;
     border-radius: 10px;
     color: #FF0D0D;
     text-align: center;
     border: 0px solid #FF0D0D;
   }
-  .fuck {
-    background-color: #22262F;
-    box-shadow: #22262F 1.5px 1.5px 3px,
-      #22262F -3px -3px 6px -0.5px;
+  .crash {
+    background-color: #FFFFFF;
+    box-shadow: #FFFFFF 1.5px 1.5px 3px,
+      #FFFFFF -3px -3px 6px -0.5px;
     border-collapse: collapse;
     border-radius: 10px;
     color: #FF0D0D;
@@ -145,11 +145,11 @@
   .emoji {
     font-size: 28px;
     position: relative;
-    box-shadow: #22262F 1.5px 1.5px 3px,
-      #22262F -3px -3px 6px -0.5px;
+    box-shadow: #FFFFFF 1.5px 1.5px 3px,
+      #FFFFFF -3px -3px 6px -0.5px;
 
-    background-color: #22262F;
-    border: 1px solid #22262F;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
   }
   .container {
     display: flex;
@@ -171,7 +171,7 @@
 
     transition: 0.5s;
     background-size: 200% auto;
-    color: #22262F;
+    color: #FFFFFF;
     /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
     box-shadow: 0 0 20px #eee;
     border-radius: 10px;
@@ -183,7 +183,7 @@
   /* <- Magic Stuff Start */
 
   .btn:hover {
-    background-color: #5C68FF;
+    background-color: #464EB5;
   }
 
   .btn-1 {
@@ -194,9 +194,7 @@
     padding: 7px;
     margin: 3px;
     max-width: 90px;
-    box-shadow: rgb(33, 33, 33) 1.5px 1.5px 3px,
-      rgb(33, 33, 33) -3px -3px 6px -0.5px;
-    background: rgb(11, 11, 11);
+    background: #5C68FF;
     border-width: 0px;
     border-style: solid;
     border-color: rgb(226, 207, 213);
@@ -212,7 +210,7 @@
     padding: 5px;
     margin: 3px;
     max-width: 90px;
-    box-shadow: #22262F 1px 1px 0px inset;
+    box-shadow: #FFFFFF 1px 1px 0px inset;
     background: rgb(44, 44, 44);
     border-width: 1px;
     border-style: solid;
@@ -261,17 +259,17 @@
     font-family: "Nunito", sans-serif;
     min-width: 85vw;
     max-width: 85vw;
-    color: #FFFFFF;
+    color: #323232;
     border-radius: 10px;
     border: 1px solid rgb(255, 255, 255);
-    box-shadow: #22262F 1px 1px 0px inset;
+    box-shadow: #FFFFFF 1px 1px 0px inset;
     font-size: 14px;
-    box-shadow: #22262F 1.5px 1.5px 3px,
+    box-shadow: #FFFFFF 1.5px 1.5px 3px,
       #5C68FF) -3px -3px 6px -0.5px;
-    background: #22262F;
+    background: #FFFFFF;
     border-width: 0px;
     border-style: solid;
-    border-color: #22262F;
+    border-color: #FFFFFF;
     border-image: initial;
     border-radius: 12px;
     overflow: hidden;
@@ -291,9 +289,9 @@
     border-radius: 0px;
   }
   .theCoinId:hover {
-    background-color: #15181E;
-    box-shadow: #22262F 1.5px 1.5px 3px,
-      #22262F -3px -3px 6px -0.5px;
+    background-color: #BFCEEA;
+    box-shadow: #FFFFFF 1.5px 1.5px 3px,
+      #FFFFFF -3px -3px 6px -0.5px;
     cursor: pointer;
   }
 
@@ -313,8 +311,8 @@
   }
   .table-header-button:hover {
     cursor: pointer;
-    box-shadow: #22262F 1.5px 1.5px 3px,
-      #22262F -3px -3px 6px -0.5px;
+    box-shadow: #FFFFFF 1.5px 1.5px 3px,
+      #FFFFFF -3px -3px 6px -0.5px;
   }
   th,
   td,
@@ -336,29 +334,29 @@
   }
 
   .up {
-    background-color: #22262F;
-    box-shadow: #22262F 1.5px 1.5px 3px,
-      #22262F -3px -3px 6px -0.5px;
+    background-color: #FFFFFF;
+    box-shadow: #FFFFFF 1.5px 1.5px 3px,
+      #FFFFFF -3px -3px 6px -0.5px;
     border-collapse: collapse;
     border-radius: 10px;
-    color: #00FF00;
+    color: #3ADC59;
     text-align: center;
     border: 0px solid rgb(255, 255, 255);
   }
   .down {
-    background-color: #22262F;
-    box-shadow: #22262F 1.5px 1.5px 3px,
-      #22262F -3px -3px 6px -0.5px;
+    background-color: #FFFFFF;
+    box-shadow: #FFFFFF 1.5px 1.5px 3px,
+      #FFFFFF -3px -3px 6px -0.5px;
     border-collapse: collapse;
     border-radius: 10px;
     color: #FF0D0D;
     text-align: center;
     border: 0px solid rgb(255, 255, 255);
   }
-  .fuck {
-    background-color: #22262F;
-    box-shadow: #22262F 1.5px 1.5px 3px,
-      #22262F -3px -3px 6px -0.5px;
+  .crash {
+    background-color: #FFFFFF;
+    box-shadow: #FFFFFF 1.5px 1.5px 3px,
+      #FFFFFF -3px -3px 6px -0.5px;
     border-collapse: collapse;
     border-radius: 10px;
     color: #FF0D0D;
@@ -382,11 +380,11 @@
   .emoji {
     font-size: 22px;
     position: relative;
-    box-shadow: #22262F 1.5px 1.5px 3px,
-      #22262F -3px -3px 6px -0.5px;
+    box-shadow: #FFFFFF 1.5px 1.5px 3px,
+      #FFFFFF -3px -3px 6px -0.5px;
 
-    background-color: #22262F;
-    border: 1px solid #22262F;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
   }
   .container {
     display: flex;
@@ -408,7 +406,7 @@
 
     transition: 0.5s;
     background-size: 200% auto;
-    color: #22262F;
+    color: #FFFFFF;
     /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
     box-shadow: 0 0 20px #eee;
     border-radius: 10px;
@@ -420,7 +418,7 @@
   /* <- Magic Stuff Start */
 
   .btn:hover {
-    background-color: #5C68FF;
+    background-color: #464EB5;
   }
 
   .btn-1 {
@@ -431,9 +429,7 @@
     padding: 7px;
     margin: 3px;
     max-width: 90px;
-    box-shadow: rgb(33, 33, 33) 1.5px 1.5px 3px,
-      rgb(33, 33, 33) -3px -3px 6px -0.5px;
-    background: rgb(11, 11, 11);
+    background: #5C68FF;
     border-width: 0px;
     border-style: solid;
     border-color: rgb(226, 207, 213);
@@ -496,17 +492,17 @@
     font-family: "Nunito", sans-serif;
     max-width: 90vw;
 
-    color: #FFFFFF;
+    color: #323232;
     border-radius: 10px;
     border: 1px solid rgb(255, 255, 255);
-    box-shadow: #22262F 1px 1px 0px inset;
+    box-shadow: #FFFFFF 1px 1px 0px inset;
     font-size: 14px;
-    box-shadow: #22262F 1.5px 1.5px 3px,
+    box-shadow: #FFFFFF 1.5px 1.5px 3px,
       #5C68FF) -3px -3px 6px -0.5px;
-    background: #22262F;
+    background: #FFFFFF;
     border-width: 0px;
     border-style: solid;
-    border-color: #22262F;
+    border-color: #FFFFFF;
 
     border-image: initial;
     border-radius: 12px;
@@ -530,9 +526,9 @@
     border-radius: 0px;
   }
   .theCoinId:hover {
-    background-color: #15181E;
-    box-shadow: #22262F 1.5px 1.5px 3px,
-      #22262F -3px -3px 6px -0.5px;
+    background-color: #BFCEEA;
+    box-shadow: #FFFFFF 1.5px 1.5px 3px,
+      #FFFFFF -3px -3px 6px -0.5px;
     cursor: pointer;
   }
 
@@ -549,8 +545,8 @@
   }
   .table-header-button:hover {
     cursor: pointer;
-    box-shadow: #22262F 1.5px 1.5px 3px,
-      #22262F -3px -3px 6px -0.5px;
+    box-shadow: #FFFFFF 1.5px 1.5px 3px,
+      #FFFFFF -3px -3px 6px -0.5px;
   }
   th,
   td,
@@ -572,29 +568,29 @@
   }
 
   .up {
-    background-color: #22262F;
-    box-shadow: #22262F 1.5px 1.5px 3px,
-      #22262F -3px -3px 6px -0.5px;
+    background-color: #FFFFFF;
+    box-shadow: #FFFFFF 1.5px 1.5px 3px,
+      #FFFFFF -3px -3px 6px -0.5px;
     border-collapse: collapse;
     border-radius: 10px;
-    color: #00FF00;
+    color: #3ADC59;
     text-align: center;
     border: 0px solid rgb(255, 255, 255);
   }
   .down {
-    background-color: #22262F;
-    box-shadow: #22262F 1.5px 1.5px 3px,
-      #22262F -3px -3px 6px -0.5px;
+    background-color: #FFFFFF;
+    box-shadow: #FFFFFF 1.5px 1.5px 3px,
+      #FFFFFF -3px -3px 6px -0.5px;
     border-collapse: collapse;
     border-radius: 10px;
     color: #FF0D0D;
     text-align: center;
     border: 0px solid rgb(255, 255, 255);
   }
-  .fuck {
-    background-color: #22262F;
-    box-shadow: #22262F 1.5px 1.5px 3px,
-      #22262F -3px -3px 6px -0.5px;
+  .crash {
+    background-color: #FFFFFF;
+    box-shadow: #FFFFFF 1.5px 1.5px 3px,
+      #FFFFFF -3px -3px 6px -0.5px;
     border-collapse: collapse;
     border-radius: 10px;
     color: #FF0D0D;
@@ -618,11 +614,11 @@
   .emoji {
     font-size: 22px;
     position: relative;
-    box-shadow: #22262F 1.5px 1.5px 3px,
-      #22262F -3px -3px 6px -0.5px;
+    box-shadow: #FFFFFF 1.5px 1.5px 3px,
+      #FFFFFF -3px -3px 6px -0.5px;
 
-    background-color: #22262F;
-    border: 1px solid #22262F;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
   }
   .container {
     display: flex;
@@ -644,7 +640,7 @@
 
     transition: 0.5s;
     background-size: 200% auto;
-    color: #22262F;
+    color: #FFFFFF;
     /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
     box-shadow: 0 0 20px #eee;
     border-radius: 10px;
@@ -656,7 +652,7 @@
   /* <- Magic Stuff Start */
 
   .btn:hover {
-    background-color: #5C68FF;
+    background-color: #464EB5;
   }
 
   .btn-1 {
@@ -667,9 +663,7 @@
     padding: 7px;
     margin: 3px;
     max-width: 90px;
-    box-shadow: rgb(33, 33, 33) 1.5px 1.5px 3px,
-      rgb(33, 33, 33) -3px -3px 6px -0.5px;
-    background: rgb(11, 11, 11);
+    background: #5C68FF;
     border-width: 0px;
     border-style: solid;
     border-color: rgb(226, 207, 213);
@@ -710,12 +704,12 @@
     }
   }
   .mobData {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
   .mobHeader {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
   .additionalData {
     background-image: rgb(255, 255, 255);
@@ -723,13 +717,11 @@
     width: fit-content;
     height: fit-content;
     padding: 10px;
-    box-shadow: rgb(11, 11, 11) 1.5px 1.5px 3px inset,
-      rgb(11, 11, 11) -3px -3px 6px inset;
     font-size: 15px;
-    background: rgb(11, 11, 11);
+    background: #BFCEEA;
     border-width: 0px;
     border-style: solid;
-    border-color: #22262F;
+    border-color: #FFFFFF;
     border-image: initial;
     border-radius: 12px;
     flex: 1 1 0%;
@@ -738,7 +730,7 @@
     max-height: 400px;
     object-fit: cover;
     display: block;
-    margin-left: auto;
+    margin-left: 25PX;
     margin-right: auto;
     margin-bottom: 25px;
     margin-top: 25px;
@@ -771,17 +763,17 @@
     font-family: "Nunito", sans-serif;
     max-width: 90vw;
 
-    color: #FFFFFF;
+    color: #323232;
     border-radius: 10px;
     border: 1px solid rgb(255, 255, 255);
-    box-shadow: #22262F 1px 1px 0px inset;
+    box-shadow: #FFFFFF 1px 1px 0px inset;
     font-size: 14px;
-    box-shadow: #22262F 1.5px 1.5px 3px,
+    box-shadow: #FFFFFF 1.5px 1.5px 3px,
       #5C68FF) -3px -3px 6px -0.5px;
-    background: #22262F;
+    background: #FFFFFF;
     border-width: 0px;
     border-style: solid;
-    border-color: #22262F;
+    border-color: #FFFFFF;
 
     border-image: initial;
     border-radius: 12px;
@@ -805,9 +797,9 @@
     border-radius: 0px;
   }
   .theCoinId:hover {
-    background-color: #15181E;
-    box-shadow: #22262F 1.5px 1.5px 3px,
-      #22262F -3px -3px 6px -0.5px;
+    background-color: #BFCEEA;
+    box-shadow: #FFFFFF 1.5px 1.5px 3px,
+      #FFFFFF -3px -3px 6px -0.5px;
     cursor: pointer;
   }
 
@@ -824,8 +816,8 @@
   }
   .table-header-button:hover {
     cursor: pointer;
-    box-shadow: #22262F 1.5px 1.5px 3px,
-      #22262F -3px -3px 6px -0.5px;
+    box-shadow: #FFFFFF 1.5px 1.5px 3px,
+      #FFFFFF -3px -3px 6px -0.5px;
   }
   th,
   td,
@@ -847,29 +839,29 @@
   }
 
   .up {
-    background-color: #22262F;
-    box-shadow: #22262F 1.5px 1.5px 3px,
-      #22262F -3px -3px 6px -0.5px;
+    background-color: #FFFFFF;
+    box-shadow: #FFFFFF 1.5px 1.5px 3px,
+      #FFFFFF -3px -3px 6px -0.5px;
     border-collapse: collapse;
     border-radius: 10px;
-    color: #00FF00;
+    color: #3ADC59;
     text-align: center;
     border: 0px solid rgb(255, 255, 255);
   }
   .down {
-    background-color: #22262F;
-    box-shadow: #22262F 1.5px 1.5px 3px,
-      #22262F -3px -3px 6px -0.5px;
+    background-color: #FFFFFF;
+    box-shadow: #FFFFFF 1.5px 1.5px 3px,
+      #FFFFFF -3px -3px 6px -0.5px;
     border-collapse: collapse;
     border-radius: 10px;
     color: #FF0D0D;
     text-align: center;
     border: 0px solid rgb(255, 255, 255);
   }
-  .fuck {
-    background-color: #22262F;
-    box-shadow: #22262F 1.5px 1.5px 3px,
-      #22262F -3px -3px 6px -0.5px;
+  .crash {
+    background-color: #FFFFFF;
+    box-shadow: #FFFFFF 1.5px 1.5px 3px,
+      #FFFFFF -3px -3px 6px -0.5px;
     border-collapse: collapse;
     border-radius: 10px;
     color: #FF0D0D;
@@ -893,11 +885,11 @@
   .emoji {
     font-size: 22px;
     position: relative;
-    box-shadow: #22262F 1.5px 1.5px 3px,
-      #22262F -3px -3px 6px -0.5px;
+    box-shadow: #FFFFFF 1.5px 1.5px 3px,
+      #FFFFFF -3px -3px 6px -0.5px;
 
-    background-color: #22262F;
-    border: 1px solid #22262F;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
   }
   .container {
     display: flex;
@@ -919,7 +911,7 @@
 
     transition: 0.5s;
     background-size: 200% auto;
-    color: #22262F;
+    color: #FFFFFF;
     /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
     box-shadow: 0 0 20px #eee;
     border-radius: 10px;
@@ -931,7 +923,7 @@
   /* <- Magic Stuff Start */
 
   .btn:hover {
-    background-color: #5C68FF;
+    background-color: #464EB5;
   }
 
   .btn-1 {
@@ -942,9 +934,7 @@
     padding: 7px;
     margin: 3px;
     max-width: 90px;
-    box-shadow: rgb(33, 33, 33) 1.5px 1.5px 3px,
-      rgb(33, 33, 33) -3px -3px 6px -0.5px;
-    background: rgb(11, 11, 11);
+    background: #5C68FF;
     border-width: 0px;
     border-style: solid;
     border-color: rgb(226, 207, 213);
@@ -985,12 +975,12 @@
     }
   }
   .mobData {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
   .mobHeader {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
   .additionalData {
     background-image: rgb(255, 255, 255);
@@ -998,13 +988,11 @@
     width: fit-content;
     height: fit-content;
     padding: 10px;
-    box-shadow: rgb(11, 11, 11) 1.5px 1.5px 3px inset,
-      rgb(11, 11, 11) -3px -3px 6px inset;
     font-size: 15px;
-    background: rgb(11, 11, 11);
+    background: #BFCEEA;
     border-width: 0px;
     border-style: solid;
-    border-color: #22262F;
+    border-color: #FFFFFF;
     border-image: initial;
     border-radius: 12px;
     flex: 1 1 0%;

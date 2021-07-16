@@ -104,7 +104,7 @@ const Chart = (props) => {
           datasets: [
             {
               label: "Price",
-              backgroundColor: "rgba(96, 93, 243)",
+              backgroundColor: "#5C68FF",
 
               borderWidth: "0px",
               data: priceSmaller,
@@ -116,7 +116,7 @@ const Chart = (props) => {
           datasets: [
             {
               label: "Volume",
-              backgroundColor: "rgba(255, 114, 211, 1)",
+              backgroundColor: "#222222",
               borderColor: "rgba(135, 99, 225, 1)",
               data: volumeSmaller,
             },
@@ -149,11 +149,11 @@ const Chart = (props) => {
               displayColors: false,
               mode: "x-axis",
 
-              backgroundColor: "rgb(255, 129, 0)",
-              bodyFontColor: "#FFFFFF",
-              titleFontColor: "#FFFFFF",
+              backgroundColor: "#FFFFFF",
+              bodyFontColor: "#323232",
+              titleFontColor: "#323232",
               borderWidth: 1,
-              borderColor: "rgb(226, 207, 213)",
+              borderColor: "#F0F0F0",
               callbacks: {
                 label: function (tooltipItems) {
                   if (tooltipItems.yLabel > 1) {
@@ -170,7 +170,7 @@ const Chart = (props) => {
               },
             },
             responsive: true,
-            title: { text: "THICCNESS SCALE", display: false },
+            title: { text: "SCALE", display: false },
             elements: {
               point: {
                 radius: 0,
@@ -186,7 +186,7 @@ const Chart = (props) => {
                     autoSkip: true,
                     maxTicksLimit: 10,
                     beginAtZero: false,
-                    fontColor: "#FFFFFF",
+                    fontColor: "#323232",
                     callback: function (value) {
                       if (value > 1) {
                         return (
@@ -209,7 +209,7 @@ const Chart = (props) => {
                     maxTicksLimit: 4,
                     maxRotation: 0,
                     minRotation: 0,
-                    fontColor: "#FFFFFF",
+                    fontColor: "#323232",
                     callback: function (value) {
                       return value.split(",")[0];
                     },
@@ -236,11 +236,11 @@ const Chart = (props) => {
             tooltips: {
               displayColors: false,
               mode: "x-axis",
-              backgroundColor: "rgb(124, 76, 255)",
-              bodyFontColor: "#FFFFFF",
-              titleFontColor: "#FFFFFF",
+              backgroundColor: "#FFFFFF",
+              bodyFontColor: "#323232",
+              titleFontColor: "#323232",
               borderWidth: 1,
-              borderColor: "rgb(226, 207, 213)",
+              borderColor: "#F0F0F0",
               callbacks: {
                 label: function (tooltipItems) {
                   return (
@@ -254,7 +254,7 @@ const Chart = (props) => {
               },
             },
             responsive: true,
-            title: { text: "THICCNESS SCALE", display: false },
+            title: { text: "SCALE", display: false },
             elements: {
               point: {
                 radius: 0,
@@ -270,7 +270,7 @@ const Chart = (props) => {
                     autoSkip: true,
                     maxTicksLimit: 10,
                     beginAtZero: false,
-                    fontColor: "#FFFFFF",
+                    fontColor: "#323232",
                     callback: function (value) {
                       return props.currencysymbols + convertToBillions(value);
                     },
@@ -286,7 +286,7 @@ const Chart = (props) => {
                     maxTicksLimit: 4,
                     maxRotation: 0,
                     minRotation: 0,
-                    fontColor: "#FFFFFF",
+                    fontColor: "#323232",
                     callback: function (value) {
                       return value.split(",")[0];
                     },

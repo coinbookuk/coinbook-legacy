@@ -25,7 +25,7 @@ export default class CustomizedTables extends React.Component {
     if (coinChange > 0) {
       return "up";
     } else if (coinChange < -10) {
-      return "fuck";
+      return "crash";
     } else {
       return "down";
     }

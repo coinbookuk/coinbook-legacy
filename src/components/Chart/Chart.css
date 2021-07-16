@@ -1,5 +1,5 @@
 .charts {
-  background-image: rgb(2, 2, 2);
+  background-image: #BFCEEA;
   width: 37vw;
   height: auto;
   font-size: 15px;
@@ -13,7 +13,7 @@
   object-fit: cover;
 }
 .charts-vol {
-  background-image: rgb(2, 2, 2);
+  background-image: #BFCEEA;
   width: 37vw;
   height: auto;
   font-size: 15px;
@@ -27,15 +27,15 @@
 }
 
 .charts-div {
-  background-image: rgb(2, 2, 2);
+  background-image: #BFCEEA;
   border-radius: 10px;
   width: fit-content;
   height: fit-content;
   padding: 10px;
-  box-shadow: rgb(2, 2, 2) 4px 4px 8px inset,
-    rgb(2, 2, 2) -6px -6px 12px inset;
+  box-shadow: #BFCEEA 4px 4px 8px inset,
+    #BFCEEA -6px -6px 12px inset;
   font-size: 15px;
-  background: rgb(2, 2, 2);
+  background: #BFCEEA;
   border-width: 0px;
   border-style: solid;
   border-color: rgb(226, 207, 213);

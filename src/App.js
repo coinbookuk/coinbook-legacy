@@ -20,10 +20,10 @@ class App extends React.Component {
       rawCoins: [],
       coinsOnMoonPay: [],
       currencies: [
-        "usd",
+        "gbp",
         "btc",
         "eth",
-        "gbp",
+        "usd",
         "aud",
         "cad",
         "eur",
@@ -33,15 +33,15 @@ class App extends React.Component {
         "cny",
         "thb",
       ],
-      settings: ["All"],
+      settings: ["Coming Soon"],
       settingsAPIParam: {
         All: "all",
       },
       currencySymbols: {
-        USD: "$", // US Dollar
+        GBP: "£", // British Pound Sterling
         EUR: "€", // Euro
         CRC: "₡", // Costa Rican Colón
-        GBP: "£", // British Pound Sterling
+        USD: "$", // US Dollar
         ILS: "₪", // Israeli New Sheqel
         INR: "₹", // Indian Rupee
         JPY: "¥", // Japanese Yen
@@ -59,11 +59,11 @@ class App extends React.Component {
         BTC: "₿",
         ETH: "Ξ",
       },
-      currency: "usd",
-      currencySymbol: "$",
+      currency: "gbp",
+      currencySymbol: "£",
       dataSettings: "all",
       pageNumber: 1,
-      pageSettings: [0, 100],
+      pageSettings: [0, 10],
       orderSelection: "",
     };
     this.onChange = this.onChange.bind(this);
@@ -335,7 +335,7 @@ class App extends React.Component {
         e.currentTarget.getAttribute("data-item")
       ],
       pageNumber: 1,
-      pageSettings: [0, 100],
+      pageSettings: [0, 10],
       orderSelection: "",
     });
     localStorage.setItem(
@@ -352,7 +352,7 @@ class App extends React.Component {
     const allCoins = this.state.rawCoins;
     if (e === "up") {
       const number = this.state.pageSettings.map(function (value) {
-        return value + 100;
+        return value + 10;
       });
       this.setState({
         pageNumber: this.state.pageNumber + 1,
@@ -361,7 +361,7 @@ class App extends React.Component {
       });
     } else if (e === "down") {
       const number = this.state.pageSettings.map(function (value) {
-        return value - 100;
+        return value - 10;
       });
       this.setState({
         pageNumber: this.state.pageNumber - 1,
