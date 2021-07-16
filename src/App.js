@@ -434,19 +434,19 @@ class App extends React.Component {
             <div className="donate">
               <p className="footer-title">Donations ❤️</p>
               <p className="footer-title">
-                Bitcoin: 14Z6pUMZikKGcuBDxxSMHSmrhcUwrAHcNs
+                <a target="_blank" href="https://www.blockchain.com/btc/address/14Z6pUMZikKGcuBDxxSMHSmrhcUwrAHcNs/"style={{ color: '#FFFFFF' }}>Bitcoin: 14Z6pUMZikKGcuBDxxSMHSmrhcUwrAHcNs</a>
               </p>
 
               <p className="footer-title">
-                Ethereum: 0xe44400ea92cD298FA05D7a901362530EC2A51C34
+                <a target="_blank" href="https://etherscan.io/address/0xe44400ea92cD298FA05D7a901362530EC2A51C34/"style={{ color: '#FFFFFF' }}>Ethereum: 0xe44400ea92cD298FA05D7a901362530EC2A51C34</a>
               </p>
 
               <p className="footer-title">
-                BNB: bnb1udd4c7dsxrf2gjca9w6y3yau2wujnvxzd8vzla
+                <a target="_blank" href="https://bscscan.com/search?f=0&q=bnb1udd4c7dsxrf2gjca9w6y3yau2wujnvxzd8vzla/"style={{ color: '#FFFFFF' }}>BNB: bnb1udd4c7dsxrf2gjca9w6y3yau2wujnvxzd8vzla</a>
               </p>
 
               <p className="footer-title">
-                XRP: rfsGFqq8ZHTEbUs3ibvbTVZN8LnvZNT2UY
+                <a target="_blank" href="https://xrpscan.com/account/rfsGFqq8ZHTEbUs3ibvbTVZN8LnvZNT2UY/"style={{ color: '#FFFFFF' }}>XRP: rfsGFqq8ZHTEbUs3ibvbTVZN8LnvZNT2UY</a>
               </p>
 
               <p className="footer-title">
@@ -507,19 +507,19 @@ class App extends React.Component {
             <div className="donate">
               <p className="footer-title">Donations ❤️</p>
               <p className="footer-title">
-                Bitcoin: 14Z6pUMZikKGcuBDxxSMHSmrhcUwrAHcNs
+                <a target="_blank" href="https://www.blockchain.com/btc/address/14Z6pUMZikKGcuBDxxSMHSmrhcUwrAHcNs/"style={{ color: '#FFFFFF' }}>Bitcoin: 14Z6pUMZikKGcuBDxxSMHSmrhcUwrAHcNs</a>
               </p>
 
               <p className="footer-title">
-                Ethereum: 0xe44400ea92cD298FA05D7a901362530EC2A51C34
+                <a target="_blank" href="https://etherscan.io/address/0xe44400ea92cD298FA05D7a901362530EC2A51C34/"style={{ color: '#FFFFFF' }}>Ethereum: 0xe44400ea92cD298FA05D7a901362530EC2A51C34</a>
               </p>
 
               <p className="footer-title">
-                BNB: bnb1udd4c7dsxrf2gjca9w6y3yau2wujnvxzd8vzla
+                <a target="_blank" href="https://bscscan.com/search?f=0&q=bnb1udd4c7dsxrf2gjca9w6y3yau2wujnvxzd8vzla/"style={{ color: '#FFFFFF' }}>BNB: bnb1udd4c7dsxrf2gjca9w6y3yau2wujnvxzd8vzla</a>
               </p>
 
               <p className="footer-title">
-                XRP: rfsGFqq8ZHTEbUs3ibvbTVZN8LnvZNT2UY
+                <a target="_blank" href="https://xrpscan.com/account/rfsGFqq8ZHTEbUs3ibvbTVZN8LnvZNT2UY/"style={{ color: '#FFFFFF' }}>XRP: rfsGFqq8ZHTEbUs3ibvbTVZN8LnvZNT2UY</a>
               </p>
 
               <p className="footer-title">

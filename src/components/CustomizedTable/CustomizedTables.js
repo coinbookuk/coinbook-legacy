@@ -214,19 +214,6 @@ export default class CustomizedTables extends React.Component {
         return (
           <tr className="chartandpay">
             <td colspan="8">
-              <table className="additionalData">
-                <tr colspan="4">
-                  <th className="mobHeader">MarketCap</th>
-                  <th className="mobHeader">Supply</th>
-                </tr>
-                <tr>
-                  <td className="mobData">
-                    {currency}
-                    {market_cap}
-                  </td>
-                  <td className="mobData">{supply}</td>
-                </tr>
-              </table>
 
               <div class="container">
                 <a
@@ -369,10 +356,6 @@ export default class CustomizedTables extends React.Component {
                   .toString()
                   .replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
               </td>
-
-              <td className="emoji">
-                {this.handleEmoji(coin.price_change_percentage_24h)}
-              </td>
             </tr>
 
             {this.chartRender(coin.id, this.state.chartDays)}
@@ -407,10 +390,6 @@ export default class CustomizedTables extends React.Component {
                 )}
               >
                 {this.roundDown(coin.price_change_percentage_24h, 2)}%
-              </td>
-
-              <td className="emoji">
-                {this.handleEmoji(coin.price_change_percentage_24h)}
               </td>
             </tr>
             {this.chartRender(

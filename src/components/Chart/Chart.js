@@ -150,8 +150,8 @@ const Chart = (props) => {
               mode: "x-axis",
 
               backgroundColor: "#FFFFFF",
-              bodyFontColor: "#323232",
-              titleFontColor: "#323232",
+              bodyFontColor: "#000000",
+              titleFontColor: "#000000",
               borderWidth: 1,
               borderColor: "#F0F0F0",
               callbacks: {
@@ -183,10 +183,10 @@ const Chart = (props) => {
               yAxes: [
                 {
                   ticks: {
-                    autoSkip: true,
+                    autoSkip: false,
                     maxTicksLimit: 10,
-                    beginAtZero: false,
-                    fontColor: "#323232",
+                    beginAtZero: true,
+                    fontColor: "#000000",
                     callback: function (value) {
                       if (value > 1) {
                         return (
@@ -209,7 +209,7 @@ const Chart = (props) => {
                     maxTicksLimit: 4,
                     maxRotation: 0,
                     minRotation: 0,
-                    fontColor: "#323232",
+                    fontColor: "#000000",
                     callback: function (value) {
                       return value.split(",")[0];
                     },
@@ -237,8 +237,8 @@ const Chart = (props) => {
               displayColors: false,
               mode: "x-axis",
               backgroundColor: "#FFFFFF",
-              bodyFontColor: "#323232",
-              titleFontColor: "#323232",
+              bodyFontColor: "#000000",
+              titleFontColor: "#000000",
               borderWidth: 1,
               borderColor: "#F0F0F0",
               callbacks: {
@@ -269,8 +269,8 @@ const Chart = (props) => {
                   ticks: {
                     autoSkip: true,
                     maxTicksLimit: 10,
-                    beginAtZero: false,
-                    fontColor: "#323232",
+                    beginAtZero: true,
+                    fontColor: "#000000",
                     callback: function (value) {
                       return props.currencysymbols + convertToBillions(value);
                     },
@@ -286,7 +286,7 @@ const Chart = (props) => {
                     maxTicksLimit: 4,
                     maxRotation: 0,
                     minRotation: 0,
-                    fontColor: "#323232",
+                    fontColor: "#000000",
                     callback: function (value) {
                       return value.split(",")[0];
                     },

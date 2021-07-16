@@ -44,6 +44,20 @@ export default class CurrencySettings extends React.Component {
               ))}
             </div>
           </div>
+          <div class="dropdown">
+            <button class="app">🔦</button>
+            <div class="dropdown-content">
+              {settingsOptions.map((setting) => (
+                <a
+                  data-item={setting}
+                  onClick={this.props.settings}
+                  value={this.props.inputValue}
+                >
+                  {setting}
+                </a>
+              ))}
+            </div>
+          </div>
         </span>
       );
     } else {

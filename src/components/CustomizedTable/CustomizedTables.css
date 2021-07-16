@@ -2,7 +2,7 @@
   img {
     max-width: 4%;
     height: auto;
-    margin: "20px";
+    margin: "0px";
   }
 
   .Coin-Logo {
@@ -21,8 +21,8 @@
   }
   table {
     font-family: "Nunito", sans-serif;
-    min-width: 85vw;
-    max-width: 85vw;
+    min-width: 95vw;
+    max-width: 95vw;
     color: #323232;
     border-radius: 10px;
     border: 1px solid rgb(255, 255, 255);
@@ -257,8 +257,8 @@
   }
   table {
     font-family: "Nunito", sans-serif;
-    min-width: 85vw;
-    max-width: 85vw;
+    min-width: 95vw;
+    max-width: 95vw;
     color: #323232;
     border-radius: 10px;
     border: 1px solid rgb(255, 255, 255);
@@ -277,9 +277,10 @@
     width: fixed;
   }
   .chartandpay {
+    max-width: 95vw;
+    max-width: 95vw;
     table-layout: fixed;
-    position: relative;
-    left: 100px;
+    position: center;
   }
   tr {
     text-align: center;
@@ -444,7 +445,7 @@
     font-family: "Nunito", sans-serif;
     padding: 5px;
     margin: 3px;
-    max-width: 90px;
+    max-width: 90vh;
     box-shadow: rgb(247, 242, 244) 1px 1px 0px inset;
     background: rgb(44, 44, 44);
     border-width: 1px;
@@ -490,8 +491,8 @@
   }
   table {
     font-family: "Nunito", sans-serif;
-    max-width: 90vw;
-
+    max-width: 95vw;
+    min-width: 95vw;
     color: #323232;
     border-radius: 10px;
     border: 1px solid rgb(255, 255, 255);
@@ -514,9 +515,10 @@
     width: fixed;
   }
   .chartandpay {
+    max-width: 95vw;
+    max-width: 95vw;
     table-layout: fixed;
-    position: relative;
-    left: 100px;
+    position: center;
   }
   tr {
     text-align: center;
@@ -761,8 +763,8 @@
   }
   table {
     font-family: "Nunito", sans-serif;
-    max-width: 90vw;
-
+    max-width: 95vw;
+    max-width: 95vw;
     color: #323232;
     border-radius: 10px;
     border: 1px solid rgb(255, 255, 255);
@@ -785,9 +787,10 @@
     width: fixed;
   }
   .chartandpay {
+    max-width: 95vw;
+    max-width: 95vw;
     table-layout: fixed;
-    position: relative;
-    left: 100px;
+    position: center;
   }
   tr {
     text-align: center;
